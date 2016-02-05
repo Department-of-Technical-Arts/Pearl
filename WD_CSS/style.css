@@ -575,40 +575,40 @@ background-size: cover; */
     height: 409px;
     /*top: 5%;*/
     /*left: 60%;*/
-    background-image: url(../WD_IMAGES/_FRANCE/Screen-04.svg);
+    background-image: url(../WD_IMAGES/FRANCE/Screen-04.svg);
 }
 .fr_cloud-2 {
     width: 100%;
     height: 409px;
     /*top: 20%;*/
     /*left: 30%;*/
-    background-image: url(../WD_IMAGES/_FRANCE/bats14.svg);
+    background-image: url(../WD_IMAGES/FRANCE/bats14.svg);
 }
 .fr_cloud-3 {
     width: 38px;
     height: 22px;
     top: 40%;
     left: 60%;
-    background-image: url(../WD_IMAGES/_FRANCE/france-shape-nuage3.png);
+    background-image: url(../WD_IMAGES/FRANCE/france-shape-nuage3.png);
 }
 .fr_city {
     width: 100%;
     height: 155px;
     /**left: 50%;**/
     /*margin-left: -356px;*/
-    background-image: url(../WD_IMAGES/_FRANCE/Screen-05.svg);
+    background-image: url(../WD_IMAGES/FRANCE/Screen-05.svg);
 }
 .fr_eiffelTower {
     width: 100%;
     height: 409px;
     /*left: 50%;*/
     /*margin-left: -45px;*/
-    background-image: url(../WD_IMAGES/_FRANCE/Screen-03.svg);
+    background-image: url(../WD_IMAGES/FRANCE/Screen-03.svg);
 }
 .fr_reverbere-1 {
     width: 100%;
     height: 409px;
-    background-image: url(../WD_IMAGES/_FRANCE/Screen-02.svg);
+    background-image: url(../WD_IMAGES/FRANCE/Screen-02.svg);
     /*left: 30%;*/
     /*margin-left: -10px;*/
 }
@@ -618,7 +618,7 @@ background-size: cover; */
 .fr_reverbere-2 {
     width: 100%;
     height: 409px;
-    background-image: url(../WD_IMAGES/_FRANCE/Screen-06.svg);
+    background-image: url(../WD_IMAGES/FRANCE/Screen-06.svg);
     /*left: 20%;*/
     /*margin-left: -13px;*/
 }
@@ -629,7 +629,7 @@ background-size: cover; */
 .fr_reverbere-3 {
     width: 100%;
     height: 409px;
-    background-image: url(../WD_IMAGES/_FRANCE/Screen-house.svg);
+    background-image: url(../WD_IMAGES/FRANCE/Screen-house.svg);
     /*left: 20%;*/
     /*margin-left: -13px;*/
 }
@@ -654,7 +654,7 @@ background-size: cover; */
     bottom: 0;
     width: 100%;
     height: 252px;
-    background-image: url(../WD_IMAGES/_FRANCE/CuteDayyam-07.svg);
+    background-image: url(../WD_IMAGES/FRANCE/CuteDayyam-07.svg);
     background-repeat: no-repeat;
     background-position: -500px bottom;
 }
@@ -671,24 +671,24 @@ background-size: cover; */
     height: 303px;
     /*top: 20%;*/
     left: 5%;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/TillDeaf1.svg);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf1.svg);
 }
 .lu_cloud-2 {
     width: 100%;
     height: 276px;
     /*top: 40%;*/
     left: 6.5%;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/TillDeaf2.svg);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf2.svg);
 }
 .lu_cloud-3 {
     width: 100%;
     height: 320px;
     /*top: 40%;*/
     left: 5%;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/TillDeaf3.svg);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf3.svg);
 }
 .lu_eglise {
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/TillDeaf1.svg);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf1.svg);
     /*bottom: 33% !important;*/
     height: 320px;
     left: 5%;
@@ -700,12 +700,12 @@ background-size: cover; */
     height: 120px;
     left: 50%;
     margin-left: -171px;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/TillDeaf2.svg);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf2.svg);
 }
 .lu_feuillage {
     width: 586px;
     height: 158px;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/TillDeaf3.svg);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf3.svg);
     left: 50%;
     margin-left: -292px;
 }
@@ -724,21 +724,21 @@ background-size: cover; */
     height: 303px;
     /*top: 30%;*/
     /*left: 20%;*/
-    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore1.svg);
+    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore1.svg);
 }
 .be_cloud-2 {
     width: 100%;
     height: 303px;
     /*top: 35%;*/
     /*left: 65%;*/
-    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore2.svg);
+    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore2.svg);
 }
 .be_cloud-3 {
     width: 100%;
     height: 303px;
     /*top: 30%;*/
     /*left: 55%;*/
-    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore3.svg);
+    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore3.svg);
 }
 .be_atomium {
     width: 100%;
@@ -746,12 +746,12 @@ background-size: cover; */
     /*left: 50%;*/
     /*margin-left: -91px;*/
     /*margin-bottom: -1px;*/
-    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore1.svg);
+    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore1.svg);
 }
 .be_arbre-1 {
     width: 100%;
     height: 303px;
-    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore2.svg);
+    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore2.svg);
     /*left: 28%;*/
     /*margin-left: -26px;*/
 }
@@ -761,7 +761,7 @@ background-size: cover; */
 .be_arbre-2 {
     width: 100%;
     height: 303px;
-    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore3.svg);
+    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore3.svg);
     /*left: 15%;*/
     /*margin-left: -40px;*/
 }
@@ -1453,7 +1453,7 @@ background-size: cover; */
     margin-left: -44px;
     width: 88px;
     height: 88px;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-link-icon.png);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/luxembourg-link-icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
@@ -1838,7 +1838,7 @@ background-size: cover; */
 }
 #portfolio-details > div:last-child > section > article .developIn > span {
     display: inline-block;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-icones-html-css-jquery-etc-spreadsheets.png);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/luxembourg-icones-html-css-jquery-etc-spreadsheets.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 48px;
@@ -1895,7 +1895,7 @@ background-size: cover; */
 #luxembourg #awards > .raylight {
     width: 650px;
     height: 650px;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-raylights-awards.png);
+    background-image: url(../WD_IMAGES/LUXEMBOURG/luxembourg-raylights-awards.png);
     background-position: center center;
     position: absolute;
     top: 0;
@@ -2085,7 +2085,7 @@ background-size: cover; */
     width: 80px;
     height: 80px;
     background-repeat: no-repeat;
-    background-image: url(../WD_IMAGES/_BELGIQUE/socials-links-stylesheets.png);
+    background-image: url(../WD_IMAGES/BELGIQUE/socials-links-stylesheets.png);
     -webkit-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
     -moz-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
     -ms-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
