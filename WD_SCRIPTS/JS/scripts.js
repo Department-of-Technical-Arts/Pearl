@@ -190,7 +190,7 @@ $(function() {
     })).addTo($controller).setTween(TweenMax.to("#luxembourg .mainPicture > .fadeMainPicture", 1, {
         opacity: .4
     }));
-    categorizr.isDesktop && (1200 > $(window).width() ? ($bgpFrom = "center -50px", $bgpTo = "center 150px") : ($bgpFrom = "center -200px", $bgpTo = "center 0px"), $(window).resize(function() {
+    categorizr.isDesktop && (1200 > $(window).width() ? ($bgpFrom = "center -50px", $bgpTo = "center 150px") : ($bgpFrom = "center -130px", $bgpTo = "center 0px"), $(window).resize(function() {
         1200 > $(this).width() ? ($bgpFrom = "center -50px", $bgpTo = "center 150px") : ($bgpFrom = "center -200px",
             $bgpTo = "center 0px")
     }), (new ScrollScene({
@@ -340,13 +340,55 @@ $(function() {
             })
         })();
         g()
-    }(new ScrollScene({
+    }
+    (new ScrollScene({
         triggerElement: "#belgique .mainPicture",
         triggerHook: 0,
         duration: 200
     })).addTo($controller).on("start", function(b) {
         "FORWARD" == b.scrollDirection && animate_illustration("illustration_belgique", "start")
     });
+
+    // new belgique
+     (new ScrollScene({
+        triggerElement: "#belgique_new .mainPicture",
+        triggerHook: 0,
+        duration: 200
+    })).addTo($controller).on("start", function(b) {
+        "FORWARD" == b.scrollDirection && animate_illustration("illustration_belgique_new", "start")
+    });
+    categorizr.isDesktop && (new ScrollScene({
+        triggerElement: "#belgique_new .mainPicture > .fadeMainPicture",
+        triggerHook: 0,
+        duration: $(window).height()
+    })).addTo($controller).setTween(TweenMax.to("#belgique_new .mainPicture > .fadeMainPicture",
+        1, {
+            opacity: .4
+        }));
+
+    // new belgique
+
+    // another belgique
+     (new ScrollScene({
+        triggerElement: "#belgique_another .mainPicture",
+        triggerHook: 0,
+        duration: 200
+    })).addTo($controller).on("start", function(b) {
+        "FORWARD" == b.scrollDirection && animate_illustration("illustration_belgique_another", "start")
+    });
+    categorizr.isDesktop && (new ScrollScene({
+        triggerElement: "#belgique_another .mainPicture > .fadeMainPicture",
+        triggerHook: 0,
+        duration: $(window).height()
+    })).addTo($controller).setTween(TweenMax.to("#belgique_another .mainPicture > .fadeMainPicture",
+        1, {
+            opacity: .4
+        }));
+
+    // another belgique
+
+    
+
     categorizr.isDesktop && (new ScrollScene({
         triggerElement: "#belgique .mainPicture > .fadeMainPicture",
         triggerHook: 0,

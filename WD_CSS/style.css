@@ -537,7 +537,7 @@ background-size: cover; */
 .welcomeTitle > .scrollDown.on {
     /*background-position: 0 50px, 0 0;*/
 }
-#illustration_france, #illustration_luxembourg, #illustration_belgique {
+#illustration_france, #illustration_luxembourg, #illustration_belgique, #illustration_belgique_new, #illustration_belgique_another {
     width: 100%;
     min-height: 350px;
     position: absolute;
@@ -550,7 +550,7 @@ background-size: cover; */
     perspective: 500px;
     z-index: 10;
 }
-#illustration_france > *:not(.country_name), #illustration_luxembourg > *:not(.country_name), #illustration_belgique > *:not(.country_name) {
+#illustration_france > *:not(.country_name), #illustration_luxembourg > *:not(.country_name), #illustration_belgique > *:not(.country_name),  #illustration_belgique_new > *:not(.country_name),  #illustration_belgique_another > *:not(.country_name) {
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-transform-origin: center bottom;
@@ -575,40 +575,46 @@ background-size: cover; */
     height: 409px;
     /*top: 5%;*/
     /*left: 60%;*/
-    background-image: url(../WD_IMAGES/FRANCE/Screen-04.svg);
+    /*background-size: cover;*/
+    background-image: url(../WD_IMAGES/_FRANCE/Screen-04.svg);
 }
 .fr_cloud-2 {
     width: 100%;
     height: 409px;
-    /*top: 20%;*/
+    top: 10%;
     /*left: 30%;*/
-    background-image: url(../WD_IMAGES/FRANCE/bats14.svg);
+    /*background-size: cover;*/
+    background-image: url(../WD_IMAGES/_FRANCE/bats14.svg);
 }
 .fr_cloud-3 {
     width: 38px;
     height: 22px;
     top: 40%;
+    /*background-size: cover;*/
     left: 60%;
-    background-image: url(../WD_IMAGES/FRANCE/france-shape-nuage3.png);
+    background-image: url(../WD_IMAGES/_FRANCE/france-shape-nuage3.png);
 }
 .fr_city {
     width: 100%;
     height: 155px;
+    /*background-size: cover;*/
     /**left: 50%;**/
     /*margin-left: -356px;*/
-    background-image: url(../WD_IMAGES/FRANCE/Screen-05.svg);
+    background-image: url(../WD_IMAGES/_FRANCE/Screen-05.svg);
 }
 .fr_eiffelTower {
     width: 100%;
     height: 409px;
+    /*background-size: cover;*/
     /*left: 50%;*/
     /*margin-left: -45px;*/
-    background-image: url(../WD_IMAGES/FRANCE/Screen-03.svg);
+    background-image: url(../WD_IMAGES/_FRANCE/Screen-03.svg);
 }
 .fr_reverbere-1 {
     width: 100%;
     height: 409px;
-    background-image: url(../WD_IMAGES/FRANCE/Screen-02.svg);
+    /*background-size: cover;*/
+    background-image: url(../WD_IMAGES/_FRANCE/Screen-02.svg);
     /*left: 30%;*/
     /*margin-left: -10px;*/
 }
@@ -618,7 +624,8 @@ background-size: cover; */
 .fr_reverbere-2 {
     width: 100%;
     height: 409px;
-    background-image: url(../WD_IMAGES/FRANCE/Screen-06.svg);
+    /*background-size: cover;*/
+    background-image: url(../WD_IMAGES/_FRANCE/Screen-06.svg);
     /*left: 20%;*/
     /*margin-left: -13px;*/
 }
@@ -629,7 +636,8 @@ background-size: cover; */
 .fr_reverbere-3 {
     width: 100%;
     height: 409px;
-    background-image: url(../WD_IMAGES/FRANCE/Screen-house.svg);
+    /*background-size: cover;*/
+    background-image: url(../WD_IMAGES/_FRANCE/Screen-house.svg);
     /*left: 20%;*/
     /*margin-left: -13px;*/
 }
@@ -654,7 +662,7 @@ background-size: cover; */
     bottom: 0;
     width: 100%;
     height: 252px;
-    background-image: url(../WD_IMAGES/FRANCE/CuteDayyam-07.svg);
+    background-image: url(../WD_IMAGES/_FRANCE/CuteDayyam-07.svg);
     background-repeat: no-repeat;
     background-position: -500px bottom;
 }
@@ -668,30 +676,33 @@ background-size: cover; */
 
 .lu_cloud-1 {
     width: 100%;
-    height: 303px;
+    height: 370px;
+    background-size: cover;
     /*top: 20%;*/
-    left: 5%;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf1.svg);
+    /*left: 2.5%;*/
+
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
 }
 .lu_cloud-2 {
     width: 100%;
     height: 276px;
     /*top: 40%;*/
-    left: 6.5%;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf2.svg);
+    left: 3%;
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
 }
 .lu_cloud-3 {
     width: 100%;
     height: 320px;
     /*top: 40%;*/
-    left: 5%;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf3.svg);
+    left: 2%;
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
 }
 .lu_eglise {
-    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf1.svg);
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
     /*bottom: 33% !important;*/
-    height: 320px;
-    left: 5%;
+    height: 370px;
+    background-size: cover;
+    /*left: 5%;*/
     /*margin-left: 25px;*/
     width: 100%;
 }
@@ -700,12 +711,12 @@ background-size: cover; */
     height: 120px;
     left: 50%;
     margin-left: -171px;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf2.svg);
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
 }
 .lu_feuillage {
     width: 586px;
     height: 158px;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/TillDeaf3.svg);
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
     left: 50%;
     margin-left: -292px;
 }
@@ -717,6 +728,64 @@ background-size: cover; */
     font-weight: 300;
     bottom: 42%;
 }
+
+/* New Belgiue */
+.be_cloud-4 {
+    width: 100%;
+    height: 303px;
+    background-repeat: no-repeat;
+    /*top: 30%;*/
+    left: 5%;
+    background-image: url(../WD_IMAGES/_BELGIQUE/TillDeaf1.svg);
+}
+.be_cloud-5 {
+    width: 100%;
+    height: 276px;
+    background-repeat: no-repeat;
+    /*top: 35%;*/
+    left: 5%;
+    background-image: url(../WD_IMAGES/_BELGIQUE/TillDeaf2.svg);
+}
+.be_cloud-6 {
+    width: 100%;
+    height: 320px;
+    background-repeat: no-repeat;
+    /*top: 30%;*/
+    left: 3%;
+    background-image: url(../WD_IMAGES/_BELGIQUE/TillDeaf3.svg);
+}
+
+/* New Belgiue */
+
+
+/* Another Belgiue */
+.be_cloud-7 {
+    width: 100%;
+    height: 303px;
+    background-repeat: no-repeat;
+    /*top: 30%;*/
+    /*left: 20%;*/
+    background-image: url(../WD_IMAGES/_BELGIQUE/newGliiters16.svg);
+}
+.be_cloud-8 {
+    width: 100%;
+    height: 303px;
+    background-repeat: no-repeat;
+    /*top: 35%;*/
+    /*left: 65%;*/
+    background-image: url(../WD_IMAGES/_BELGIQUE/newGliiters17.svg);
+}
+.be_cloud-9 {
+    width: 100%;
+    height: 303px;
+    background-repeat: no-repeat;
+    /*top: 30%;*/
+    /*left: 55%;*/
+    background-image: url(../WD_IMAGES/_BELGIQUE/newGliiters18.svg);
+}
+
+/* Another Belgiue */
+
 /*BELGIQUE*/
 
 .be_cloud-1 {
@@ -724,34 +793,37 @@ background-size: cover; */
     height: 303px;
     /*top: 30%;*/
     /*left: 20%;*/
-    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore1.svg);
+    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore1.svg);
 }
 .be_cloud-2 {
     width: 100%;
     height: 303px;
     /*top: 35%;*/
     /*left: 65%;*/
-    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore2.svg);
+    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore2.svg);
 }
 .be_cloud-3 {
     width: 100%;
     height: 303px;
     /*top: 30%;*/
     /*left: 55%;*/
-    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore3.svg);
+    background-image: url(../WD_IMAGES/_BELGIQUE/Terpsichore3.svg);
 }
+
+
+
 .be_atomium {
     width: 100%;
     height: 303px;
     /*left: 50%;*/
     /*margin-left: -91px;*/
     /*margin-bottom: -1px;*/
-    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore1.svg);
+    background-image: url(../WD_IMAGES/_BELGIQUE/TillDeaf2.svg);
 }
 .be_arbre-1 {
     width: 100%;
     height: 303px;
-    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore2.svg);
+    background-image: url(../WD_IMAGES/_BELGIQUE/TillDeaf3.svg);
     /*left: 28%;*/
     /*margin-left: -26px;*/
 }
@@ -761,7 +833,7 @@ background-size: cover; */
 .be_arbre-2 {
     width: 100%;
     height: 303px;
-    background-image: url(../WD_IMAGES/BELGIQUE/Terpsichore3.svg);
+    background-image: url(../WD_IMAGES/_BELGIQUE/TillDeaf1.svg);
     /*left: 15%;*/
     /*margin-left: -40px;*/
 }
@@ -1453,7 +1525,7 @@ background-size: cover; */
     margin-left: -44px;
     width: 88px;
     height: 88px;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/luxembourg-link-icon.png);
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-link-icon.png);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
@@ -1838,7 +1910,7 @@ background-size: cover; */
 }
 #portfolio-details > div:last-child > section > article .developIn > span {
     display: inline-block;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/luxembourg-icones-html-css-jquery-etc-spreadsheets.png);
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-icones-html-css-jquery-etc-spreadsheets.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 48px;
@@ -1895,7 +1967,7 @@ background-size: cover; */
 #luxembourg #awards > .raylight {
     width: 650px;
     height: 650px;
-    background-image: url(../WD_IMAGES/LUXEMBOURG/luxembourg-raylights-awards.png);
+    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-raylights-awards.png);
     background-position: center center;
     position: absolute;
     top: 0;
@@ -1972,14 +2044,14 @@ background-size: cover; */
 }
 /*BELGIQUE*/
 
-#belgique .welcomeTitle {
+#belgique .welcomeTitle , #belgique_new .welcomeTitle, #belgique_another .welcomeTitle  {
     width: 100%;
     position: absolute;
     text-align: center;
     bottom: 35%;
     left: 0;
 }
-#belgique .welcomeTitle > h1 {
+#belgique .welcomeTitle > h1 , #belgique_new .welcomeTitle > h1 , #belgique_another .welcomeTitle > h1 {
     color: #dcdfe0;
     font-size: 23px;
     font-size: 2.3rem;
@@ -1988,50 +2060,60 @@ background-size: cover; */
     text-align: center;
     width: 574px;
 }
-#belgique .mainPicture {
+#belgique .mainPicture , #belgique_new .mainPicture , #belgique_another .mainPicture {
     background-color: #DDE0E1;
 }
-#belgique .belgique-1 {
-    background-color: #DDE0E1;
+#belgique .belgique-1  {
+    background-color: #1A3C47;
 }
-#belgique .belgique-1 > w990px {
+
+#belgique_another .belgique-1{
+    background-color: #252A26;
+}
+
+
+#belgique_new .belgique-1{
+     background-color: #ffffff;
+}
+
+#belgique .belgique-1 > w990px , #belgique_new .belgique-1 > w990px , #belgique_another .belgique-1 > w990px {
     padding-bottom: 0;
 }
-#belgique .texte1 {
+#belgique .texte1 , #belgique_new .texte1 , #belgique_another .texte1 {
     color: #303030;
     font-size: 2rem;
     font-size: 20px;
     line-height: 3.2rem;
     padding: 110px 150px 160px 150px;
 }
-#belgique .texte1 strong {
+#belgique .texte1 strong , #belgique_new .texte1 strong, #belgique_another .texte1 strong {
     display: block;
     font-size: 14px;
     font-size: 1.4rem;
     margin: -3px 0 0;
     padding: 0;
 }
-#belgique .texte1 a {
+#belgique .texte1 a , #belgique_new .texte1 a , #belgique_another .texte1 a {
     color: #3f8093;
     display: inline-block;
     text-decoration: none;
 }
-#belgique .texte1 a:hover {
+#belgique .texte1 a:hover , #belgique_new .texte1 a:hover  , #belgique_another .texte1 a:hover {
     text-decoration: underline;
 }
-#belgique .texte1 a[rel='external'] {
+#belgique .texte1 a[rel='external'] , #belgique_new .texte1 a[rel='external'] , #belgique_another .texte1 a[rel='external'] {
     color: #ca0a60;
 }
-#belgique .texte2 {
+#belgique .texte2 , #belgique_new .texte2 , #belgique_another .texte2 {
     background-color: #3F8093;
     margin-top: -80px;
 }
-#belgique .texte2 > .w990px.merci {
+#belgique .texte2 > .w990px.merci , #belgique_new .texte2 > .w990px.merci , #belgique_another .texte2 > .w990px.merci {
     padding: 0;
     position: relative;
     top: -64px;
 }
-#belgique .texte2 > .w990px.merci > h1 {
+#belgique .texte2 > .w990px.merci > h1 , #belgique_new .texte2 > .w990px.merci > h1 , #belgique_another .texte2 > .w990px.merci > h1 {
     color: #3f8093;
     font-size: 60px;
     font-size: 6rem;
@@ -2041,26 +2123,26 @@ background-size: cover; */
     font-weight: 300;
     letter-spacing: 0.15em
 }
-#belgique .texte2 > .w990px {
+#belgique .texte2 > .w990px , #belgique_new .texte2 > .w990px , #belgique_another .texte2 > .w990px {
     color: #dcdfe0;
     font-size: 15px;
     font-size: 1.5rem;
     text-align: center;
     padding: 20px 0 80px;
 }
-#belgique .texte2 > .w990px > p > span {
+#belgique .texte2 > .w990px > p > span , #belgique_new .texte2 > .w990px > p > span  , #belgique_another .texte2 > .w990px > p > span {
     opacity: 0;
     position: absolute;
     margin-left: 4px;
 }
-#belgique .texte2 > .w990px > .social-icons {
+#belgique .texte2 > .w990px > .social-icons , #belgique_new .texte2 > .w990px > .social-icons , #belgique_another .texte2 > .w990px > .social-icons {
     text-align: center;
     margin-top: 40px;
 }
-#belgique .texte2 > .w990px > .social-icons a {
+#belgique .texte2 > .w990px > .social-icons a , #belgique_new .texte2 > .w990px > .social-icons a , #belgique_another .texte2 > .w990px > .social-icons a {
     text-decoration: none;
 }
-#belgique .texte2 > .w990px > .social-icons > a > div {
+#belgique .texte2 > .w990px > .social-icons > a > div , #belgique_new .texte2 > .w990px > .social-icons > a > div , #belgique_another .texte2 > .w990px > .social-icons > a > div {
     display: inline-block;
     margin: 0 10px;
     width: 80px;
@@ -2074,9 +2156,12 @@ background-size: cover; */
     -o-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
     transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
-#belgique .texte2 > .w990px > .social-icons > a > div:hover {
+#belgique .texte2 > .w990px > .social-icons > a > div:hover , #belgique_new .texte2 > .w990px > .social-icons > a > div:hover , #belgique .texte2 > .w990px > .social-icons > a > div:hover {
     background-color: #3F8093;
 }
+/*BELGIQUE*/
+
+
 .social-icons .icon {
     position: absolute;
     z-index: 2;
@@ -2085,7 +2170,7 @@ background-size: cover; */
     width: 80px;
     height: 80px;
     background-repeat: no-repeat;
-    background-image: url(../WD_IMAGES/BELGIQUE/socials-links-stylesheets.png);
+    background-image: url(../WD_IMAGES/_BELGIQUE/socials-links-stylesheets.png);
     -webkit-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
     -moz-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
     -ms-transition: all 600ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
