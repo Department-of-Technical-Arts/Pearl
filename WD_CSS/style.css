@@ -587,12 +587,77 @@ background-size: cover; */
     background-image: url(../WD_IMAGES/_FRANCE/bats14.svg);
 }
 .fr_cloud-3 {
-    width: 38px;
-    height: 22px;
-    top: 40%;
+    width: 45px;
+    height: 392px;
+    /*top: 40%;*/
     /*background-size: cover;*/
-    left: 60%;
-    background-image: url(../WD_IMAGES/_FRANCE/france-shape-nuage3.png);
+    left: 15%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-07.png);
+}
+.fr_cloud-4 {
+    width: 45px;
+    height: 392px;
+    /*top: 40%;*/
+    /*background-size: cover;*/
+    left: 25%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-07.png);
+}
+
+.fr_cloud-5 {
+    width: 162px;
+    height: 48px;
+    top: 0%;
+    /*background-size: cover;*/
+    left: 11.5%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-02.png);
+}
+.fr_cloud-6 {
+    width: 166px;
+    height: 49px;
+    top: 15%;
+    /*background-size: cover;*/
+    left: 10.5%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-03.png);
+}
+.fr_cloud-7 {
+    width: 177px;
+    height: 49px;
+    top: 30%;
+    /*background-size: cover;*/
+    left: 10%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-04.png);
+}
+.fr_cloud-8 {
+    width: 173px;
+    height: 52px;
+    top: 45%;
+    /*background-size: cover;*/
+    left: 9.5%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-05.png);
+}
+.fr_cloud-9 {
+    width: 172px;
+    height: 54px;
+    top: 61%;
+    /*background-size: cover;*/
+    left: 9.5%;
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-06.png);
+}
+
+.fr_cloud-9:hover {
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-12.png);
+}
+.fr_cloud-8:hover {
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-11.png);
+}
+.fr_cloud-7:hover {
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-10.png);
+}
+.fr_cloud-6:hover {
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-09.png);
+}
+.fr_cloud-5:hover {
+    background-image: url(../WD_IMAGES/_FRANCE/websiteButtons-08.png);
 }
 .fr_city {
     width: 100%;
