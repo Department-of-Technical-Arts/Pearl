@@ -76,6 +76,8 @@
                     rel="stylesheet" href="WD_SCRIPTS/JS/slick/slick.css" type="text/css" />
 
 
+               
+
                     <!-- <link rel="stylesheet" href="Navbar/css/style.css"> -->
                 <script src="WD_SCRIPTS/JS/jquery.min.js"></script> <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> <script src="WD_SCRIPTS/JS/html5loader/jquery.html5Loader.min.js"></script> <script src="WD_SCRIPTS/JS/mobile-events/jquery.mobile-events.min.js"></script> <script src="WD_SCRIPTS/JS/gsap/TweenMax.min.js"></script> <script src="WD_SCRIPTS/JS/gsap/plugins/CSSPlugin.min.js"></script> <script src="WD_SCRIPTS/JS/gsap/plugins/ScrollToPlugin.min.js"></script> <script src="WD_SCRIPTS/JS/slick/slick.js" type="text/javascript"></script> <script src="WD_SCRIPTS/JS/scrollMagic/jquery.scrollmagic.js" type="text/javascript"></script> <script src="WD_SCRIPTS/JS/scrollMagic/jquery.scrollmagic.debug.js" type="text/javascript"></script> <script src="WD_SCRIPTS/JS/functions.js" type="text/javascript"></script> <script src="WD_SCRIPTS/JS/scripts.js" type="text/javascript"></script>
             </head>
@@ -279,8 +281,7 @@
                                     class="fr_reverbere-3"></div>
                                 <div
                                     class="cloud fr_cloud-9"></div>
-                                <div
-                                    class="cloud fr_cloud-5"></div>
+                                <div class="cloud fr_cloud-5"></div>
                                 <div
                                     class="cloud fr_cloud-6"></div>
                                 <div
@@ -1729,4 +1730,15 @@
                  <!--<script src="Navbar/js/index.js"></script>->
             </body>
             <!-- Mirrored from lempens-design.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jan 2016 05:14:41 GMT -->
+
+
+
+
+             <script>
+                    $('div.fr_cloud-5').click(function(){
+                        $('html,body').animate({
+                        scrollTop: $(".perspectiveH1").offset().top},
+                        'slow');
+                    });
+            </script>
         </html>
