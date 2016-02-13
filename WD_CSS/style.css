@@ -22,11 +22,13 @@ body {
 }
 #go_to_top {
     position: fixed;
-    width: 126px;
+    width: 70px;
     bottom: 0;
     right: 0;
-    height: 126px;
+    height: 113px;
     text-indent: -666em;
+    background-repeat: no-repeat;
+    margin: 10px;
     overflow: hidden;
     z-index: 99999;
     cursor: pointer;
@@ -58,15 +60,30 @@ body {
 /* NOMINEE */
 
 #go_to_top.honorable.black{
-    background-image: url(../WD_IMAGES/awwwards_honorable_black.png);
+    background-image: url(../WD_IMAGES/websiteButtons-19.png);
+    visibility: hidden;
+
 }
+/*#go_to_top.honorable.black > div.floating{
+    float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}*/
 #go_to_top.nominee.black{
-    background-image: url(../WD_IMAGES/awwwards_nominee_black.png);
+    background-image: url(../WD_IMAGES/websiteButtons-19.png);
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
     /* NOMINEE */
     #go_to_top.nominee.black{
-        background-image: url(../WD_IMAGES/awwwards_nominee_black%402x.png);
+        background-image: url(../WD_IMAGES/websiteButtons-19.png);
     }
 }
 img {
@@ -1327,7 +1344,7 @@ background-size: cover; */
 }*/
 
 #luxembourg article {
-    background-color: #E1DFDE;
+    background-color: #FFFFFF;
 }
 #luxembourg .luxembourg-1 .bandeau {
     background-color: #68695F;
