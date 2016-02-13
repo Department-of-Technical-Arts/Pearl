@@ -3,6 +3,8 @@
 /*OSWALD GOOGLE FONT*/
 
 @import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
+@import url(https://fonts.googleapis.com/css?family=Neucha);
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 
 /*
 font-family: 'Oswald', sans-serif;
@@ -107,6 +109,23 @@ h1 {
     color: #dcdbdc;
     margin: 0px auto;
 }
+
+
+/* Preload main */
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../WD_IMAGES/Preloader.gif) center no-repeat #000;
+}
+
+
 /*PRELOAD*/
 
 #preload {
@@ -419,7 +438,7 @@ section {
     perspective: 400px;
 }
 .w990px h1 {
-    width: 220px;
+    width: 420px;
 }
 h1.rotateH1 {
     -webkit-transform: rotateX(-100deg);
@@ -841,7 +860,8 @@ background-size: cover; */
 .lu_eglise {
     background-image: url(../WD_IMAGES/_LUXEMBOURG/proshow.svg);
     /*bottom: 33% !important;*/
-    height: 370px;
+    height: 320px;
+    margin-bottom: -1px;
     background-size: cover;
     /*left: 5%;*/
     /*margin-left: 25px;*/
